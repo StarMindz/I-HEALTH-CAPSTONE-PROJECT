@@ -45,7 +45,6 @@ li, a {
   flex-direction: column;
   align-items: flex-start;
   transition: 0.3s;
-  z-index: 1;
   gap: 40px;
   margin-right: 20px;
   height: 755px;
@@ -71,7 +70,6 @@ li, a {
 .hamburger {
   display: block;
   margin-right: 24px;
-  z-index: 2;
 }
 
 .bar {
@@ -113,7 +111,7 @@ li, a {
 
 .main-message-head {
   width: 60%; 
-  margin-top: 40px;
+  margin-top: 90px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
@@ -130,6 +128,7 @@ li, a {
 .main-message-subhead-2 {
   margin-top: 20px;
 }
+
 .main-message-content {
   font-size: 18px;
   color: var(--black);
@@ -293,6 +292,57 @@ li, a {
   height: 40px;
 }
 
+#the-team-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  z-index: -1;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 90%;
+  margin-top: 40px;
+}
+
+.teammate-name {
+  font-size: 20px;
+  margin-top: 10px;
+  color: var(--black);
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.teammate-role {
+  font-size: 16px;
+  margin-top: 10px;
+  color: var(--orange);
+}
+
+.teammate-description {
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--black);
+}
+
+.team-background {
+  width: 50px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
 @media (min-width: 400px) {
   .main-message {
     padding-left: 80px;
@@ -316,6 +366,7 @@ li, a {
     justify-content: space-between;
     align-items: center;
     margin-right: 60px;
+    background-color: var(--white);
   }
 
   .menu-link {
@@ -392,5 +443,9 @@ li, a {
 
   .Our-Products-and-Solutions  {
     height: 750px;
+  }
+
+  .team-container {
+    width: 45%;
   }
 }
