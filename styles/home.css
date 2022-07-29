@@ -7,7 +7,6 @@
 
 .brand-logo {
   font-family: Helvetica, sans-serif;
-  font-weight: 500px;
   font-size: 20px;
   color: var(--orange);
   margin-left: 24px;
@@ -20,9 +19,10 @@
   --white: #fff;
   --darkgrey: rgb(96, 92, 92);
   --text: grey;
-  }
+}
 
-li, a {
+li,
+a {
   list-style: none;
   text-decoration: none;
 }
@@ -97,9 +97,9 @@ li, a {
 }
 
 .site-container {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .main-message {
@@ -112,7 +112,7 @@ li, a {
 }
 
 .main-message-head {
-  width: 60%; 
+  width: 60%;
   margin-top: 90px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -124,7 +124,7 @@ li, a {
   margin-top: 60px;
   font-weight: 900;
   font-family: 'Cocogoose', sans-serif;
-  font-size: 40px
+  font-size: 40px;
 }
 
 .main-message-subhead-2 {
@@ -136,7 +136,7 @@ li, a {
   color: var(--black);
 }
 
-.text-background-container  {
+.text-background-container {
   background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/surgery.jpg");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -156,7 +156,7 @@ li, a {
 }
 
 #mobile-mockup {
-  background-size: contain; 
+  background-size: contain;
 }
 
 .Our-Products-and-Solutions {
@@ -187,7 +187,7 @@ li, a {
   padding: 15px;
   display: flex;
   width: 80%;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   flex-direction: row;
   align-items: center;
   gap: 15px;
@@ -210,7 +210,7 @@ li, a {
 .solution-partners {
   color: var(--white);
   margin-top: 20px;
-  background-image:  linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575));
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575));
   border: 1px solid var(--orange);
   text-align: center;
   width: 80%;
@@ -286,7 +286,6 @@ li, a {
 
 #footer-text {
   color: var(--white);
-  font-family: ;
 }
 
 #footer-image {
@@ -397,9 +396,9 @@ li, a {
     margin-top: 100px;
     font-size: 24px;
   }
-  
+
   .main-message-subhead {
-    font-size: 45px
+    font-size: 45px;
   }
 
   .main-message-subhead-2 {
@@ -443,7 +442,7 @@ li, a {
     padding-right: 150px;
   }
 
-  .Our-Products-and-Solutions  {
+  .Our-Products-and-Solutions {
     height: 750px;
   }
 
