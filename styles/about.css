@@ -106,7 +106,8 @@
 
 #about-box-image1 {
   margin-top: 30px;
-  width: 300px;    height: 300px;
+  width: 300px;    
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,7 +119,7 @@
   color: var(--white);
 }
 
-#about-box-image2{
+#about-box-image2 {
   margin-top: 30px;
   width: 300px;
   height: 300px;
@@ -176,7 +177,7 @@
 
   #i-health-logo {
     padding-left: 100px;
-    padding-right: 100px; 
+    padding-right: 100px;
   }
 
   .seperator {
@@ -187,7 +188,7 @@
   .gallary-head {
     margin-top: 60px;
     color: var(--black);
- }
+  }
 
   .gallary-description {
     color: var(--darkgrey);
@@ -196,7 +197,7 @@
     text-align: center;
   }
 
-  #about-box-image1{
+  #about-box-image1 {
     margin-top: 30px;
     width: 300px;
     height: 300px;
@@ -211,7 +212,7 @@
     color: var(--white);
   }
 
-  #about-box-image2{
+  #about-box-image2 {
     margin-top: 30px;
     width: 300px;
     height: 300px;

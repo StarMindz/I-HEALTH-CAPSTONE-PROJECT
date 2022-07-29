@@ -42,15 +42,14 @@ const teams = [
     teamHead: 'Jacqueline Mars',
     teamSubHead: 'She is an American billionaire heiress and businesswoman.',
     teamDescription: 'She has served on several boards.',
-  }
+  },
 ];
 
 let teamContent = '';
 
-for (let index = 0; index < teams.length; index++)
-{
-  let teammate = teams[index];
-  let htmlContent = `
+for (let index = 0; index < teams.length; index += 1) {
+  const teammate = teams[index];
+  const htmlContent = `
     <div class="team-container">
         <div class="team-image-container">
             <img class="team-background" src="${teammate.imageBackground}" alt="">
@@ -66,6 +65,5 @@ for (let index = 0; index < teams.length; index++)
 
   teamContent += htmlContent;
 }
-
 
 team.innerHTML = teamContent;
