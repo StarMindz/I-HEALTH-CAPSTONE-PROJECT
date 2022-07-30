@@ -193,6 +193,7 @@ a {
   gap: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: transform 0.5s, background-color 1s;
 }
 
 .solution {
@@ -218,6 +219,7 @@ a {
   padding-top: 20px;
   font-size: 18px;
   box-shadow: 1px 1px 1px 1px rgb(80, 27, 27);
+  transition: border-radius 1s, transform 0.5s;
 }
 
 .more-solutions {
@@ -342,6 +344,16 @@ a {
   position: relative;
   margin-left: 15px;
   margin-top: 15px;
+}
+
+.solution-partners:hover {
+  border-radius: 10px;
+  transform: scale(1.04);
+}
+
+.solution-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 @media (min-width: 400px) {
