@@ -1,8 +1,7 @@
-
 .about-main-message-head {
-  width: 60%; 
+  width: 60%;
   margin-top: 90px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -12,17 +11,17 @@
   margin-top: 60px;
   font-weight: 900;
   font-family: 'Cocogoose', sans-serif;
-  font-size: 40px
+  font-size: 40px;
 }
 
 .about-main-message-content {
   margin-top: 40px;
   font-size: 18px;
-  color: var(--black);
   background-color: var(--white);
   color: var(--darkgrey);
-  padding: 70px;
+  padding: 20px;
   margin-right: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .about-main-message {
@@ -71,7 +70,7 @@
   background-size: contain;
   border: 1px solid var(--darkgrey);
   padding-left: 40px;
-  padding-right: 40px; 
+  padding-right: 40px;
 }
 
 .seperator {
@@ -99,40 +98,52 @@
 }
 
 .gallary-description {
-    color: var(--darkgrey);
-    margin-top: 30px;
-    width: 80%;
-    text-align: center;
+  color: var(--darkgrey);
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
 }
 
-#about-box-image1{
-    margin-top: 30px;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2018forum.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-    color: var(--white)
+#about-box-image1 {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2018forum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  transition: border-radius 1s, transform 1s;
 }
 
-#about-box-image2{
-    margin-top: 30px;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2020forum.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 40px;
-    align-items: center;
-    color: var(--white)
+#about-box-image1:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+
+#about-box-image2 {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2020forum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  align-items: center;
+  color: var(--white);
+  transition: border-radius 1s, transform 1s;
+}
+
+#about-box-image2:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
 }
 
 @media (min-width: 400px) {
@@ -144,88 +155,93 @@
 
 @media (min-width: 768px) {
   .about-main-message {
-      display: flex;
-      flex-direction: column;
-      background-image: url("../images/background/introbg.png");
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background/introbg.png");
   }
 
   .about-main-message-head {
-      width: 60%; 
-      margin-top: 140px;
-      font-size: 24px;
-    }
-      
-    .about-main-message-subhead {
-      font-size: 45px;
-    }
-      
-    .about-main-message-content {
-      font-size: 20px;
-    }
-      
-    .about-main-message-contact {
-      margin-top: 40px;
-      font-size: 18px;
-    }
- 
-    .about-logo-section-head {
-      font-size: 30px;
-      text-align: center;
-      width: 80%;
-      margin-top: 70px;
-      color: var(--black);
-    }
-            
-    #i-health-logo {
-      padding-left: 100px;
-      padding-right: 100px; 
-    }
-      
-      .seperator {
-        width: 100%;
-        margin-top: 40px;
-      }
-      
-      .gallary-head {
-        margin-top: 60px;
-        color: var(--black);
-      }
-      
-      .gallary-description {
-          color: var(--darkgrey);
-          margin-top: 30px;
-          width: 80%;
-          text-align: center;
-      }
-      
-      #about-box-image1{
-          margin-top: 30px;
-          width: 300px;
-          height: 300px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2018forum.jpg");
-          background-repeat: no-repeat;
-          background-size: cover;
-          align-items: center;
-          text-align: center;
-          color: var(--white)
-      }
-      
-      #about-box-image2{
-          margin-top: 30px;
-          width: 300px;
-          height: 300px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2020forum.jpg");
-          background-repeat: no-repeat;
-          background-size: cover;
-          margin-bottom: 40px;
-          align-items: center;
-          color: var(--white)
-      }
-    
+    width: 60%;
+    margin-top: 140px;
+    font-size: 24px;
+  }
+
+  .about-main-message-subhead {
+    font-size: 45px;
+  }
+
+  .about-main-message-contact {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .about-logo-section-head {
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    margin-top: 70px;
+    color: var(--black);
+  }
+
+  #i-health-logo {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .seperator {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .gallary-head {
+    margin-top: 60px;
+    color: var(--black);
+  }
+
+  .gallary-description {
+    color: var(--darkgrey);
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+  }
+
+  #about-box-image1 {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2018forum.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+  }
+
+  #about-box-image2 {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/2020forum.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    align-items: center;
+    color: var(--white);
+  }
+
+  .about-main-message-content {
+    margin-top: 40px;
+    background-color: var(--white);
+    color: var(--darkgrey);
+    padding: 70px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+  }
 }

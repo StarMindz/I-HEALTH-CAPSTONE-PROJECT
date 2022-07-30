@@ -1,13 +1,14 @@
 @import url("about.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .brand-logo {
-  font-family: Helvetica, sans-serif;
-  font-weight: 500px;
+  font-family: 'Cocogoose', sans-serif;
   font-size: 20px;
   color: var(--orange);
   margin-left: 24px;
@@ -20,9 +21,10 @@
   --white: #fff;
   --darkgrey: rgb(96, 92, 92);
   --text: grey;
-  }
+}
 
-li, a {
+li,
+a {
   list-style: none;
   text-decoration: none;
 }
@@ -97,9 +99,9 @@ li, a {
 }
 
 .site-container {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .main-message {
@@ -112,9 +114,9 @@ li, a {
 }
 
 .main-message-head {
-  width: 60%; 
+  width: 60%;
   margin-top: 90px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Cocogoose', 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -124,19 +126,21 @@ li, a {
   margin-top: 60px;
   font-weight: 900;
   font-family: 'Cocogoose', sans-serif;
-  font-size: 40px
+  font-size: 40px;
 }
 
 .main-message-subhead-2 {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main-message-content {
   font-size: 18px;
   color: var(--black);
+  font-family: 'Lato', sans-serif;
 }
 
-.text-background-container  {
+.text-background-container {
   background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/background/surgery.jpg");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -156,7 +160,7 @@ li, a {
 }
 
 #mobile-mockup {
-  background-size: contain; 
+  background-size: contain;
 }
 
 .Our-Products-and-Solutions {
@@ -183,16 +187,18 @@ li, a {
 }
 
 .solution-card {
+  font-family: 'Lato', sans-serif;
   height: 120px;
   padding: 15px;
   display: flex;
   width: 80%;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   flex-direction: row;
   align-items: center;
   gap: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: transform 0.5s, background-color 1s;
 }
 
 .solution {
@@ -210,7 +216,7 @@ li, a {
 .solution-partners {
   color: var(--white);
   margin-top: 20px;
-  background-image:  linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575));
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575));
   border: 1px solid var(--orange);
   text-align: center;
   width: 80%;
@@ -218,6 +224,7 @@ li, a {
   padding-top: 20px;
   font-size: 18px;
   box-shadow: 1px 1px 1px 1px rgb(80, 27, 27);
+  transition: border-radius 1s, transform 0.5s;
 }
 
 .more-solutions {
@@ -260,10 +267,9 @@ li, a {
 }
 
 .partners-logo {
-  border: 1px solid var(--grey);
-  width: 200px;
-  height: 70px;
-  margin: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
 }
 
 .partners-list {
@@ -271,6 +277,7 @@ li, a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 #footer {
@@ -286,7 +293,6 @@ li, a {
 
 #footer-text {
   color: var(--white);
-  font-family: ;
 }
 
 #footer-image {
@@ -316,7 +322,7 @@ li, a {
   font-size: 20px;
   margin-top: 10px;
   color: var(--black);
-  font-family: 'Lucida Sans', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
 }
 
 .teammate-role {
@@ -343,6 +349,16 @@ li, a {
   position: relative;
   margin-left: 15px;
   margin-top: 15px;
+}
+
+.solution-partners:hover {
+  border-radius: 10px;
+  transform: scale(1.04);
+}
+
+.solution-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 @media (min-width: 400px) {
@@ -397,9 +413,9 @@ li, a {
     margin-top: 100px;
     font-size: 24px;
   }
-  
+
   .main-message-subhead {
-    font-size: 45px
+    font-size: 55px;
   }
 
   .main-message-subhead-2 {
@@ -443,7 +459,7 @@ li, a {
     padding-right: 150px;
   }
 
-  .Our-Products-and-Solutions  {
+  .Our-Products-and-Solutions {
     height: 750px;
   }
 
@@ -451,5 +467,25 @@ li, a {
     width: 40%;
     margin-left: 30px;
     margin-right: 30px;
+  }
+
+  .team-background {
+    width: 100px;
+    position: absolute;
+    opacity: 0.3;
+  }
+
+  .team-image {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .partners-logo {
+    width: 200px;
+    height: 70px;
+    margin: 20px;
   }
 }
