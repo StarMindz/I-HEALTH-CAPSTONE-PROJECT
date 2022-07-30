@@ -15,6 +15,9 @@ The live demo is available at:
 
 [Live Demo Link](https://starmindz.github.io/I-HEALTH-CAPSTONE-PROJECT/)
 
+## Video Demo
+The video showcase of the site can be found here:
+[Video Demo Link](https://www.loom.com/share/fe65fd1174594c40ae4013e449c6f814)
 
 ## Getting Started
 
