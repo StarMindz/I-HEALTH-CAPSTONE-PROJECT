@@ -170,10 +170,6 @@
     font-size: 45px;
   }
 
-  .about-main-message-content {
-    font-size: 20px;
-  }
-
   .about-main-message-contact {
     margin-top: 40px;
     font-size: 18px;
@@ -247,5 +243,6 @@
     padding: 70px;
     margin-right: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
   }
 }
