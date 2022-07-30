@@ -1,12 +1,14 @@
 @import url("about.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .brand-logo {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   font-size: 20px;
   color: var(--orange);
   margin-left: 24px;
@@ -114,7 +116,7 @@ a {
 .main-message-head {
   width: 60%;
   margin-top: 90px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Cocogoose', 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -129,11 +131,13 @@ a {
 
 .main-message-subhead-2 {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main-message-content {
   font-size: 18px;
   color: var(--black);
+  font-family: 'Lato', sans-serif;
 }
 
 .text-background-container {
@@ -183,6 +187,7 @@ a {
 }
 
 .solution-card {
+  font-family: 'Lato', sans-serif;
   height: 120px;
   padding: 15px;
   display: flex;
@@ -317,7 +322,7 @@ a {
   font-size: 20px;
   margin-top: 10px;
   color: var(--black);
-  font-family: 'Lucida Sans', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
 }
 
 .teammate-role {
@@ -410,7 +415,7 @@ a {
   }
 
   .main-message-subhead {
-    font-size: 45px;
+    font-size: 55px;
   }
 
   .main-message-subhead-2 {
