@@ -228,8 +228,7 @@ a {
 }
 
 .more-solutions {
-  color: white;
-  text-align: center;
+  display: none;
 }
 
 .the-team {
