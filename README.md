@@ -13,7 +13,7 @@ A coming soon website created to announce an upcoming project launch for I-healt
 ## Live Demo 
 The live demo is available at:
 
-[Live Demo Link](https://starmindz.github.io/I-HEALTH-CAPSTONE-PROJECT/)
+[Live Demo Link](https://i-healthlaunch.netlify.app)
 
 ## Video Demo
 The video showcase of the site can be found here:
